@@ -1,2 +1,2 @@
 # app-navigation
-Curso de React Native
+Curso de React-Native
