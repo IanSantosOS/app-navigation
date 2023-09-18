@@ -8,6 +8,9 @@ Curso de React-Native
 * props.navigation.navigate()
 * props.navigation.push()
 * props.route.params
+* Navegação Bottom Tabs
+* Tab.Navigator & Tab.Screen
+* (tabBarActive & tabBarInactive) -> Style
 
 ## Anotações
 
@@ -28,9 +31,20 @@ Nas funções você pode mudar o nome do parâmetro, Nos componentes de classe e
 
 `npx expo install react-native-gesture-handler react-native-reanimated`
 
+Em seu babel.config.js adicione o plugin reanimated:
+```
+module.exports = function (api) {
+  api.cache(true);
+  return {
+    presets: ['babel-preset-expo'],
+    plugins: ['react-native-reanimated/plugin'],
+  };
+};
+```
+
 Na primeira linha do seu index.js ou App.js coloque:
 
-`import 'react-Native-gesture-handler;`
+`import 'react-native-gesture-handler';`
 
 ## Sites
 
